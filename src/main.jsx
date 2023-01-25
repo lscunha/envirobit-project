@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 import App from "./App";
@@ -26,14 +26,21 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 
+// Import the functions you need from the SDKs you need
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB0AnaoC1ymXUsIy5Scw54QNiQDyaep4zg",
-  authDomain: "envirobit--movies.firebaseapp.com",
-  projectId: "envirobit--movies",
-  storageBucket: "envirobit--movies.appspot.com",
-  messagingSenderId: "256433798591",
-  appId: "1:256433798591:web:c9f296448b3a30817c750a",
-  measurementId: "G-KDBWXJ8Z20"
+  apiKey: "AIzaSyAzSyZ7lsLqzCKV7lHy5H5rcDu4BENsKo8",
+  authDomain: "envirobit-filmes.firebaseapp.com",
+  projectId: "envirobit-filmes",
+  storageBucket: "envirobit-filmes.appspot.com",
+  messagingSenderId: "865908645550",
+  appId: "1:865908645550:web:16db7d6485bd1868b7d73f",
+  measurementId: "G-HK9DP06ES6"
 };
 
 // Initialize Firebase
