@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { initializeApp } from 'firebase/app';
-import 'firebase/analytics';
+import { getAnalytics } from "firebase/analytics";
 
 import App from "./App";
 import Home from "./pages/Home";
